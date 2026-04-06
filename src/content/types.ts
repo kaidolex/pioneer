@@ -30,12 +30,14 @@ export interface Project {
   description: string
   image: string
   tags: string[]
+  url: string
 }
 
 export interface Repository {
   name: string
   description: string
-  tech: string
+  techs: string[]
+  url: string
 }
 
 export interface ContactMethod {

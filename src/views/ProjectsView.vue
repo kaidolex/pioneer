@@ -32,6 +32,7 @@ function loadMore() {
           :description="project.description"
           :image="project.image"
           :tags="project.tags"
+          :url="project.url"
         />
       </div>
     </section>
@@ -39,7 +40,14 @@ function loadMore() {
     <section class="space-y-6">
       <h2 class="text-xl font-semibold">Active Repositories</h2>
       <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <RepoCard v-for="repo in shownRepos" :key="repo.name" :name="repo.name" :description="repo.description" :tech="repo.tech" />
+        <RepoCard
+          v-for="repo in shownRepos"
+          :key="repo.name"
+          :name="repo.name"
+          :description="repo.description"
+          :techs="repo.techs"
+          :url="repo.url"
+        />
       </div>
       <BaseButton v-if="visibleRepos < repositories.length" as="button" @click="loadMore">Load More Repository Data</BaseButton>
     </section>
