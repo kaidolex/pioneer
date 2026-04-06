@@ -20,7 +20,7 @@ function handleSubmit() {
         v-model="name"
         required
         class="w-full rounded-xl border border-outline-variant/20 bg-surface-container-high/75 px-3 py-2 text-sm outline-none transition focus:border-primary focus:shadow-[0_0_10px_rgba(129,236,255,0.25)]"
-        placeholder="Agent Name"
+        placeholder="Name"
       />
     </label>
 

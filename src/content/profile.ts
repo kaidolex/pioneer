@@ -11,6 +11,6 @@ export const profile: Profile = {
 }
 
 export const contactMethods: ContactMethod[] = [
-  { label: 'Secure Mail', value: 'hello@kaidstack.dev' },
-  { label: 'Base Operations', value: 'San Francisco, Neural District' },
+  { label: 'Secure Mail', value: 'kaidolex@praganoid.com' },
+  { label: 'Base of Operations', value: 'Marikina City, Philippines, 1801' },
 ]
