@@ -27,9 +27,10 @@ const links = [
         </li>
       </ul>
       <div class="flex items-center gap-3 text-primary">
-        <Sparkles class="size-4" />
+        <!-- Removed since I already added them on the contacts -->
+        <!-- <Sparkles class="size-4" />
         <Code2 class="size-4" />
-        <Github class="size-4" />
+        <Github class="size-4" /> -->
       </div>
     </nav>
   </header>

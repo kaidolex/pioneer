@@ -2,10 +2,10 @@ import type { ContactMethod, Profile } from './types'
 
 export const profile: Profile = {
   name: 'Kaidstack',
-  title: 'Senior Full Stack Developer',
-  subtitle: 'DevOps & Cloud Engineer',
+  title: 'DevOps & Cloud Engineer',
+  subtitle: 'Full Stack Developer',
   availability: 'Available for Hire',
-  bio: 'Specializing in the kinetic monolith: building robust, scalable backend and immersive frontend experiences powered by intentional cloud infrastructure.',
+  bio: 'Specializing in the DevOps Pipeline, building robust scalable backend and immersive frontend experiences powered by cloud infrastructure.',
   ctaPrimary: 'View Projects',
   ctaSecondary: 'Contact Me',
 }
