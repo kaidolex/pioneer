@@ -3,6 +3,7 @@ import BaseChip from '@/components/BaseChip.vue'
 import BaseSectionHeading from '@/components/BaseSectionHeading.vue'
 import ContactForm from '@/components/ContactForm.vue'
 import ContactInfoCard from '@/components/ContactInfoCard.vue'
+import LiveLocationMap from '@/components/LiveLocationMap.vue'
 import { contactLinks } from '@/content/contact'
 import { contactMethods } from '@/content/profile'
 </script>
@@ -20,9 +21,7 @@ import { contactMethods } from '@/content/profile'
     <section class="grid gap-5 lg:grid-cols-[1.35fr_1fr]">
       <div class="space-y-4">
         <ContactForm />
-        <div class="h-40 rounded-2xl bg-[radial-gradient(circle_at_center,rgba(129,236,255,0.12),transparent_55%)] bg-surface-container-low ghost-border p-5 text-sm text-on-surface-muted">
-          Syncing Location...
-        </div>
+        <LiveLocationMap />
       </div>
 
       <div class="space-y-4">
