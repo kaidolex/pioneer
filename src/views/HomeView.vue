@@ -37,21 +37,21 @@ import { timeline } from '@/content/timeline'
     </section>
 
     <section class="space-y-6">
-      <BaseSectionHeading title="Precision Services" subtitle="High-capability modules for this stack's core zones." />
+      <BaseSectionHeading title="My Services" subtitle="High-capability modules for this stack's core zones." />
       <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <ServiceCard v-for="service in services" :key="service.title" :title="service.title" :description="service.description" />
       </div>
     </section>
 
     <section class="space-y-6">
-      <BaseSectionHeading title="The Tech Arsenal" />
+      <BaseSectionHeading title="My Arsenals" />
       <div class="grid gap-4 md:grid-cols-2">
         <SkillTagGroup v-for="group in skillGroups" :key="group.category" :category="group.category" :items="group.items" />
       </div>
     </section>
 
     <section class="space-y-6">
-      <BaseSectionHeading title="Professional Trajectory" />
+      <BaseSectionHeading title="My Professional History" />
       <div class="space-y-6 rounded-2xl bg-surface-container-low/80 p-6">
         <TimelineItem
           v-for="item in timeline"

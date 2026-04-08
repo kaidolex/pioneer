@@ -29,10 +29,10 @@ export const repositories: Repository[] = [
     url: 'https://github.com/praganoid-studio/habagat',
   },
   {
-    name: 'QueVault',
-    description: 'A secure, offline-first password manager built with Flutter. It provides military-grade encryption, biometric authentication, and comprehensive vault management while keeping all your sensitive data stored locally on your device.',
-    techs: ['Flutter', 'Dart'],
-    url: 'https://github.com/kaidolex/quevault_app',
+    name: 'Pioneer',
+    description: 'A portfolio template I built to create this portfolio website',
+    techs: ['Vue'],
+    url: 'https://github.com/kaidolex/pioneer',
   },
   {
     name: 'Terraform Modules',
@@ -45,5 +45,11 @@ export const repositories: Repository[] = [
     description: 'A GitHub Organization that I established to host and manage my opensource projects. It also serves as a curated collection of microservices designed to operate in high-availability and scalable environments. These services are built with modular architecture principles, allowing them to be deployed independently or as part of a larger distributed system.',
     techs: ['NestJS', 'Rust', 'Terraform', 'Kubernetes'],
     url: 'https://github.com/praganoid-studio',
+  },
+  {
+    name: 'QueVault',
+    description: 'A secure, offline-first password manager built with Flutter. It provides military-grade encryption, biometric authentication, and comprehensive vault management while keeping all your sensitive data stored locally on your device.',
+    techs: ['Flutter', 'Dart'],
+    url: 'https://github.com/kaidolex/quevault_app',
   },
 ]

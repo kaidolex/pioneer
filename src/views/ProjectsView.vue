@@ -19,7 +19,7 @@ function loadMore() {
     <BaseSectionHeading
       eyebrow="Technical Portfolio"
       title="Engineered Solutions."
-      subtitle="Architecting the future of the kinetic monolith through precise code and immersive digital environments."
+      subtitle="Architecting the future through thoughtful code and immersive digital experiences"
     />
 
     <section class="space-y-6">
