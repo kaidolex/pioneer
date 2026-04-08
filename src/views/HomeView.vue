@@ -37,7 +37,11 @@ import { timeline } from '@/content/timeline'
     </section>
 
     <section class="space-y-6">
-      <BaseSectionHeading title="My Services" subtitle="High-capability modules for this stack's core zones." />
+      <BaseSectionHeading
+        title="My Services"
+        subtitle="Delivering expert solutions across the full technology stack."
+      />
+
       <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <ServiceCard v-for="service in services" :key="service.title" :title="service.title" :description="service.description" />
       </div>

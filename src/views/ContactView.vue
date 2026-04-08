@@ -13,7 +13,7 @@ import { contactMethods } from '@/content/profile'
     <section class="space-y-5">
       <BaseChip pulse>Available For Hire</BaseChip>
       <BaseSectionHeading
-        title="Let’s Build the your Future Projects"
+        title="Let's Build Your Future Projects"
         subtitle="Whether you have a question about my stack or want to initiate a new project protocol, my channels are open."
       />
     </section>
