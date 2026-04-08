@@ -14,7 +14,7 @@ jobs:
       contents: read
     env:
       AWS_REGION: ap-southeast-1
-      S3_BUCKET: kaidolex.com
+      S3_BUCKET: kaidstack.com
 
     steps:
       - name: Checkout repository
